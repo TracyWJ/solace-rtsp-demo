@@ -20,26 +20,6 @@
 ## 2. Streaming from Video File
 ### 2.1 Feeding Video File via FFMPEG
 **FFMEPG process of feeding video file is running on the EC2 instance** `RTSP Server Simulator`
-
-**Skip this step if you don't want to change the input video file**
-
-To change the input video file:
-1. Login the EC2 instance:
-    ```
-   ssh -i "rtsp.pem" ec2-user@ec2-54-93-139-134.eu-central-1.compute.amazonaws.com
-   ```
-2. CD the directory:
-   ```
-   cd /home/ec2-user/
-   ```
-3. Stop the current ffmpeg process:
-   ```
-   ./stop_send.sh
-   ```
-4. Start the new ffmpeg process:
-   ```
-   ./start_<resolution>_to_rtsp.sh
-   ```
    
 ### 2.2 Play the Video
 #### VLC

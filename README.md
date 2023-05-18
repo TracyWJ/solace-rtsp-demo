@@ -15,14 +15,15 @@
 
 ### 1.3 Face Recognition
 #### Pre-requisites
-The following tools needed to install on your host:
-* python3
-* opencv@3 
+The following steps are required:
+* install python3
+* install opencv@3 
+* download [faceRecognition](faceRecognition) folder in this repository
 
 #### Run it
 ```
 cd faceRecognition
-python3 webcam_rtsp_cv3.py
+python3 [webcam_rtsp_cv3.py](faceRecognition/webcam_rtsp_cv3.py)
 ```
 
 ## 2. Streaming from Static 4K Video File

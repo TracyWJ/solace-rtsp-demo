@@ -6,7 +6,7 @@
 ```
 ### 1.2 Play the Video
 #### VLC
-* OutputProxy for Camera: /Applications/VLC.app/Contents/MacOS/VLC [rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera](rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera)
+* OutputProxy for Camera: `/Applications/VLC.app/Contents/MacOS/VLC` [rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera](rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera)
 
 #### WebRTC
 * OutputProxy for Camera: [http://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:8000](http://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:8000)
@@ -29,7 +29,7 @@ python3 webcam_rtsp_cv3.py rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaw
 ## 2. Streaming from Static 4K Video File
 ### 2.1 Play the Video
 #### VLC
-* OutputProxy for Video file: /Applications/VLC.app/Contents/MacOS/VLC [rtsp://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/4k](rtsp://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/4k)
+* OutputProxy for Video file: `/Applications/VLC.app/Contents/MacOS/VLC` [rtsp://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/4k](rtsp://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/4k)
   
 #### WebRTC
 * OutputProxy for Video file: [http://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:8000](http://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:8000)

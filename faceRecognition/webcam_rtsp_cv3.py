@@ -13,7 +13,10 @@ log.basicConfig(filename='webcam.log',level=log.INFO)
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;tcp|timeout;50000000"
 # video_capture = cv2.VideoCapture("rtsp://localhost:8554/mystream",cv2.CAP_FFMPEG)
 # video_capture = cv2.VideoCapture("rtsp://localhost:9999/solace/liveVideoStream/4k",cv2.CAP_FFMPEG)
-video_capture = cv2.VideoCapture("rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera",cv2.CAP_FFMPEG)
+# video_capture = cv2.VideoCapture("rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:9999/solace/liveVideoStream/camera",cv2.CAP_FFMPEG)
+rtspUrl = sys.argv[1]
+print('Connect to RTSP URL:', rtspUrl)
+video_capture = cv2.VideoCapture(str(rtspUrl),cv2.CAP_FFMPEG)
 anterior = 0
 # sleep(5000)
 

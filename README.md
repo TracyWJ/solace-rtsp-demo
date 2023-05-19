@@ -10,7 +10,7 @@
 
 #### WebRTC
 * OutputProxy for Camera: [http://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:8000](http://ec2-3-77-101-249.eu-central-1.compute.amazonaws.com:8000)
-
+* Scan QR code via the mobile device:
 <img src="pic/aws-outputProxy-camera-eu.png" width="20%" height="20%">
 
 ### 1.3 Face Recognition
@@ -33,6 +33,6 @@ python3 webcam_rtsp_cv3.py rtsp://ec2-3-77-101-249.eu-central-1.compute.amazonaw
   
 #### WebRTC
 * OutputProxy for Video file: [http://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:8000](http://ec2-3-77-120-143.eu-central-1.compute.amazonaws.com:8000)
-
+* Scan QR code via the mobile device:
 <img src="pic/aws-outputProxy-videofile-eu.png" width="20%" height="20%">
 

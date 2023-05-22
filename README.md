@@ -1,4 +1,6 @@
 # DACH User Group
+Solace PubSub+ Broker [Click Here to Open PubSub+ Manager](http://ec2-3-78-14-155.eu-central-1.compute.amazonaws.com:8080)
+   
 ## 1. Streaming from Mac Camera
 ### 1.1 Feeding Camera Data via FFMPEG
 ```
